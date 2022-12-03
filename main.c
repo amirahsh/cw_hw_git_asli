@@ -2,12 +2,14 @@
 #include <stdio.h>
 #include<math.h>
 int begintoend(int begin,int end,int number){
-    int i=1;
-    int sum=0;
-    while( number > 0) {
-        sum=sum+(number%10)*i;
-        number=number/10;
-        i=i*begin;
+    //int i=1;
+   // int sum=0;
+    //while( number > 0) {
+     //   sum=sum+(number%10)*i;
+      //  number=number/10;
+      //  i=i*begin;
+
+   //    code ta inja comment shod
     }
     i=0;
     int new=0;
