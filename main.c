@@ -2,15 +2,16 @@
 #include <stdio.h>
 #include<math.h>
 int begintoend(int begin,int end,int number){
-    int i=1;
-    int sum=0;
-    while( number > 0) {
-        sum=sum+(number%10)*i;
-        number=number/10;
-        i=i*begin;
+    //int i=1;
+   // int sum=0;
+    //while( number > 0) {
+     //   sum=sum+(number%10)*i;
+      //  number=number/10;
+      //  i=i*begin;
 
+   //    1-code ta inja comment shod
     }
-
+    /*
     i=0;
     int new=0;
     while(sum!=0){
@@ -19,7 +20,8 @@ int begintoend(int begin,int end,int number){
         sum=sum/end;
     }
     return new;
-
+    */
+    //   2- chand khat digar comment shod
 }
 int numberofdigits(int ournum){
     int i2=0;
@@ -38,8 +40,8 @@ int numbertobase10(int beginbase,int number){
         i=i*beginbase;
     }
     return sum;
-    
 }
+
 int main(){
     int number ,begin ,end ,sum;
     scanf("%d %d %d",&begin,&end,&number);
@@ -58,9 +60,8 @@ int main(){
     int final2= numbertobase10(end,secondpart);
     int final= begintoend(10,end,final1+final2);
     printf("%d",final);
-    // printf("%d\t%d\t%d\t%d\t%d\t%d\t%d",final,final1,final2,firstpart,secondpart,newnum,i2);
+   // printf("%d\t%d\t%d\t%d\t%d\t%d\t%d",final,final1,final2,firstpart,secondpart,newnum,i2);
 
-    return 0;
+return 0;
 }
-
 
