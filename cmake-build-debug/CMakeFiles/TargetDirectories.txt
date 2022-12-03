@@ -1,0 +1,3 @@
+C:/Users/Amirhosein/CLionProjects/c2-h2 git asli/cmake-build-debug/CMakeFiles/c2_h2_git_asli.dir
+C:/Users/Amirhosein/CLionProjects/c2-h2 git asli/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Amirhosein/CLionProjects/c2-h2 git asli/cmake-build-debug/CMakeFiles/rebuild_cache.dir
