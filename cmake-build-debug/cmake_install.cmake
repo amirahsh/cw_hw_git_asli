@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Amirhosein/CLionProjects/c2-h2 git asli
+# Install script for directory: C:/Users/Amirhosein/CLionProjects/cw_hw_git_asli
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Amirhosein/CLionProjects/c2-h2 git asli/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Amirhosein/CLionProjects/cw_hw_git_asli/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

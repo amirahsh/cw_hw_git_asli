@@ -2,16 +2,13 @@
 #include <stdio.h>
 #include<math.h>
 int begintoend(int begin,int end,int number){
-    //int i=1;
-   // int sum=0;
-    //while( number > 0) {
-     //   sum=sum+(number%10)*i;
-      //  number=number/10;
-      //  i=i*begin;
-
-   //    1-code ta inja comment shod
+    int i=1;
+    int sum=0;
+    while( number > 0) {
+        sum=sum+(number%10)*i;
+        number=number/10;
+        i=i*begin;
     }
-    /*
     i=0;
     int new=0;
     while(sum!=0){
@@ -20,8 +17,7 @@ int begintoend(int begin,int end,int number){
         sum=sum/end;
     }
     return new;
-    */
-    //   2- chand khat digar comment shod
+
 }
 int numberofdigits(int ournum){
     int i2=0;
