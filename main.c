@@ -23,6 +23,7 @@ int begintoend(int begin,int end,int number){
     */
     //   2- chand khat digar comment shod
 }
+/*
 int numberofdigits(int ournum){
     int i2=0;
     while(ournum!=0){
@@ -41,7 +42,7 @@ int numbertobase10(int beginbase,int number){
     }
     return sum;
 }
-
+*/
 int main(){
     int number ,begin ,end ,sum;
     scanf("%d %d %d",&begin,&end,&number);
