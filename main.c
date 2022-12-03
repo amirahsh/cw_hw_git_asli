@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdio.h>
 #include<math.h>
+
+
+// masala in code akhar nist va mikhamin revert conim be ghabli
+
+
 int begintoend(int begin,int end,int number){
     int i=1;
     int sum=0;
