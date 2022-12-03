@@ -20,7 +20,7 @@ int begintoend(int begin,int end,int number){
         sum=sum/end;
     }
     return new;
-    
+
 }
 int numberofdigits(int ournum){
     int i2=0;
@@ -39,6 +39,7 @@ int numbertobase10(int beginbase,int number){
         i=i*beginbase;
     }
     return sum;
+    
 }
 
 
