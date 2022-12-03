@@ -9,8 +9,9 @@ int begintoend(int begin,int end,int number){
       //  number=number/10;
       //  i=i*begin;
 
-   //    code ta inja comment shod
+   //    1-code ta inja comment shod
     }
+    /*
     i=0;
     int new=0;
     while(sum!=0){
@@ -19,7 +20,8 @@ int begintoend(int begin,int end,int number){
         sum=sum/end;
     }
     return new;
-
+    */
+    //   2- chand khat digar comment shod
 }
 int numberofdigits(int ournum){
     int i2=0;
